@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+AI Finance Platform
 
-## Getting Started
+An advanced full-stack application designed to revolutionize personal finance management through AI-driven insights and automation.
 
-First, run the development server:
+Overview
+The AI Finance Platform consolidates multiple bank accounts into a single interface, offering users a comprehensive view of their financial health. By leveraging artificial intelligence, the platform automates receipt scanning, transaction categorization, and generates personalized financial reports, empowering users to make informed financial decisions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Key Features
+Multiple Bank Account Management: Aggregate various bank accounts into a unified dashboard for streamlined tracking.​
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+AI-Powered Receipt Scanning with Gemini: Automatically extract and categorize data from scanned receipts using the Gemini API.​
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Automated Monthly Reports with AI Insights: Receive personalized financial reports highlighting spending patterns and insights.​
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+User Authentication: Secure authentication via Google and email/password combinations.​
 
-## Learn More
+Smart Transaction Categorization: Automatically classify transactions into appropriate categories for better organization.​
 
-To learn more about Next.js, take a look at the following resources:
+Rate Limiting with Arcjet: Implement security measures to prevent abuse and ensure system stability.​
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Interactive Charts & Analytics: Visualize financial data through dynamic charts and analytics.​
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Budget Tracking with Alerts: Monitor budgets and receive notifications when approaching spending limits.​
 
-## Deploy on Vercel
+Recurring Transaction Management: Efficiently handle regular transactions and subscriptions.​
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tech Stack
+Frontend: Next.js 15, React.js 19, shadcn/ui​
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Backend: Node.js, Express.js​
+
+Database: PostgreSQL managed with Prisma​
+
+AI Integration: Gemini API for receipt analysis​
+
+Background Jobs: Inngest for managing recurring tasks​
+
+Email Notifications: Resend for automated email communications​
+
+Security: Arcjet for rate limiting and system protection
